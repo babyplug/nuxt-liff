@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.1.0":
@@ -1632,6 +1632,627 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@liff/add-to-home-screen@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/add-to-home-screen@npm:2.19.1"
+  dependencies:
+    "@liff/check-availability": 2.19.1
+    "@liff/consts": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/is-sub-window": 2.19.1
+    "@liff/native-bridge": 2.19.1
+    "@liff/open-window": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: f4cf3970b9bfc64e454e67580b72eef113d56a44dd1ea8339b63048404ef7a70b1bcb3e9fabfa122773fffb6e137a3b149a56443b026fde64f9cd9121e481912
+  languageName: node
+  linkType: hard
+
+"@liff/analytics@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/analytics@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/get-profile": 2.19.1
+    "@liff/get-version": 2.19.1
+    "@liff/is-logged-in": 2.19.1
+    "@liff/logger": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/types": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 4a223e2b90e499d13918339377a111efaf6978a49b843d5ad5f8e913ebc49f4bbcbdfc02527c9adcb1eb84a6e9cf5ce479a6358c5c6da00fbb2a25cb3c77154d
+  languageName: node
+  linkType: hard
+
+"@liff/check-availability@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/check-availability@npm:2.19.1"
+  dependencies:
+    "@liff/get-version": 2.19.1
+    "@liff/is-api-available": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: d26d7cc2b727be2aabfe03358fcb0d5d994ef9e2f9f24cf24381101e7c7c455b5d30626d57f7907a193a76cca0ee25da40b95e9a979214fb3b27737850f0d372
+  languageName: node
+  linkType: hard
+
+"@liff/close-window@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/close-window@npm:2.19.1"
+  dependencies:
+    "@liff/get-line-version": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/native-bridge": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: d1782164d119bb9e7e0111d83da90eb27b286bf700fa59acb786568695b75dc0464f019c932b0986500a1003870fd3c6d0f165120b9f725c3db86a2df38332d4
+  languageName: node
+  linkType: hard
+
+"@liff/consts@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/consts@npm:2.19.1"
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 266d824e4db46858da7a1fb1e9582919a82bdbb85f8f2da813389d24ba4b77784f468ede84eb6e07fc56421e0b0b16bca514717f69f010a7cc0fd8344a2d51be
+  languageName: node
+  linkType: hard
+
+"@liff/extensions@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/extensions@npm:2.19.1"
+  dependencies:
+    "@liff/add-to-home-screen": 2.19.1
+    "@liff/check-availability": 2.19.1
+    "@liff/consts": 2.19.1
+    "@liff/get-advertising-id": 2.19.1
+    "@liff/get-line-version": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/logger": 2.19.1
+    "@liff/scan-code": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/util": 2.19.1
+  checksum: 2a9a0e7399ca3cd92efa0cb6c5dec09c5a4ff2b3d9774936dbd72e58c8ea1d15549f5926dfb8ade9898bd45cc222401ceb37c347d5dab23015cfbdacf1decb2e
+  languageName: node
+  linkType: hard
+
+"@liff/get-advertising-id@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/get-advertising-id@npm:2.19.1"
+  dependencies:
+    "@liff/check-availability": 2.19.1
+    "@liff/consts": 2.19.1
+    "@liff/native-bridge": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 58f5062fcb3fabcfa14931f2dcc46298ce0b74644b30f557a00602caca0d9505a4e508f5df15222cdb36ec2b0ddfbcf5cde913de218083e4552877329c1ce8c3
+  languageName: node
+  linkType: hard
+
+"@liff/get-friendship@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/get-friendship@npm:2.19.1"
+  dependencies:
+    "@liff/server-api": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 57ff7d0c0788dae016e48d746cee2fb8a0379c12419b0603906726af0ca396db4dcb4fd80260a5d8b1049b85a2b480df4d2a87ca4c0cf66e638914cbcb90c21e
+  languageName: node
+  linkType: hard
+
+"@liff/get-language@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/get-language@npm:2.19.1"
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: bfba98762764294b6f78bc997da5fe27ee58830100f5f48e20c2fee72ee7edc579a5125f5994294c93e08e99432be3c56606f02a4db9f414c1a97cb64446f8cd
+  languageName: node
+  linkType: hard
+
+"@liff/get-line-version@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/get-line-version@npm:2.19.1"
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 6eee56ead96c00cd2c195429a2316d869ee6d627c55f3c9c974c9c8ea7621e6f17243674fe97dcf84899b045501e1414186ba3287ef56770c4d6e00b45deb58f
+  languageName: node
+  linkType: hard
+
+"@liff/get-os@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/get-os@npm:2.19.1"
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 18060c32293e34e712c78892dcb36b063640aa207123be41cdcf22d5197655004b08a7c744fcfde781d76d1f953cfe7a938ee6e5db1c422e885adec4363cfca0
+  languageName: node
+  linkType: hard
+
+"@liff/get-profile@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/get-profile@npm:2.19.1"
+  dependencies:
+    "@liff/server-api": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 2712cafd1db680c6d7c509c8fd9d5c9d9a0bd4a912290b2c375d9e84742b8eafc0a535e5b0ef8774d5863c07fa6ac5c009b06a1e3515c074ecccd3b81c8055c7
+  languageName: node
+  linkType: hard
+
+"@liff/get-version@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/get-version@npm:2.19.1"
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 81408afd3af9040a43da84fedfb8ecfd5675c942a0df7b200486a3d12cd15f127c7b93a907f063aeaca7f7ad5e96512c1ef9fdcafed4afafc40dada6ecef8028
+  languageName: node
+  linkType: hard
+
+"@liff/hooks@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/hooks@npm:2.19.1"
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 0cedb5ca5b4375be4e6e4c2fa5bd1332c4b05afb00bf7abdbf4829610524a7cdd7db5e7d123b2d6c62eb34b4f780bfc51729545dccfc33a8a8ed025543542235
+  languageName: node
+  linkType: hard
+
+"@liff/init@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/init@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/extensions": 2.19.1
+    "@liff/get-line-version": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/hooks": 2.19.1
+    "@liff/is-api-available": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/is-logged-in": 2.19.1
+    "@liff/is-sub-window": 2.19.1
+    "@liff/logger": 2.19.1
+    "@liff/login": 2.19.1
+    "@liff/logout": 2.19.1
+    "@liff/native-bridge": 2.19.1
+    "@liff/ready": 2.19.1
+    "@liff/server-api": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/sub-window": 2.19.1
+    "@liff/types": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 0377d0feda17348e2ada244cbde000d107f3a01bccb9b2f780fd8f15948fdf4e7f329bb217389fcab4f536903bdd0a71f345a868f0a452ca1f8b5b64d549df09
+  languageName: node
+  linkType: hard
+
+"@liff/is-api-available@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/is-api-available@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/get-line-version": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/is-logged-in": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: cb278dda56b0502b4a24a49a3b1d019b3f60acdb4700f38923c287770890f37fcc8dc571f1422346ac8bc45a4eacdeb35050a662a914ce3d007a7de68a1ef287
+  languageName: node
+  linkType: hard
+
+"@liff/is-in-client@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/is-in-client@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 4062a5b510620576d58f065dbfe39998a304927738362faf222bf01832dd9987bbb5117f2686fb06330f83d82b475465f152cbf3747a90644e6b3da6bb0158a0
+  languageName: node
+  linkType: hard
+
+"@liff/is-logged-in@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/is-logged-in@npm:2.19.1"
+  dependencies:
+    "@liff/store": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: fc2bd02f59ae12a3c5c43da7814f55c793b62acb9d0d330454128dd58182b96542581fea88aeff2f44638ebce549d701fbea9a542502398238f9216b86c42ccc
+  languageName: node
+  linkType: hard
+
+"@liff/is-sub-window@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/is-sub-window@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 3c7d5bc757ff116de109650aeb10a603cb3155c0ce29a83df4392aa5b704bb32bac6c5debd4b52446c40dcd4a83cfe2d6c8295f7c41770cd31e31299068b7fc4
+  languageName: node
+  linkType: hard
+
+"@liff/liff-types@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/liff-types@npm:2.19.1"
+  dependencies:
+    "@liff/analytics": 2.19.1
+    "@liff/close-window": 2.19.1
+    "@liff/get-friendship": 2.19.1
+    "@liff/get-language": 2.19.1
+    "@liff/get-line-version": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/get-profile": 2.19.1
+    "@liff/get-version": 2.19.1
+    "@liff/init": 2.19.1
+    "@liff/is-api-available": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/is-logged-in": 2.19.1
+    "@liff/is-sub-window": 2.19.1
+    "@liff/login": 2.19.1
+    "@liff/logout": 2.19.1
+    "@liff/native-bridge": 2.19.1
+    "@liff/open-window": 2.19.1
+    "@liff/permanent-link": 2.19.1
+    "@liff/permission": 2.19.1
+    "@liff/ready": 2.19.1
+    "@liff/scan-code-v2": 2.19.1
+    "@liff/send-messages": 2.19.1
+    "@liff/share-target-picker": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/sub-window": 2.19.1
+    "@liff/use": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 7fc3685d419fb76443c637bff8304b7979d91059ab121bb17a85fb7159489a9eb67d3a8b557a8b641e8a84d45e535d6227ea19a205ee81d74c471794feae3487
+  languageName: node
+  linkType: hard
+
+"@liff/logger@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/logger@npm:2.19.1"
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 65953332bb0215f37185b732c9e986bf3ac20b51bdb35324948ccc8df9120c53c139de4c631c13e4d270188feb165966720a7fbe89cdcdf6c8fddcb5c88425ce
+  languageName: node
+  linkType: hard
+
+"@liff/login@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/login@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/get-version": 2.19.1
+    "@liff/hooks": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/is-sub-window": 2.19.1
+    "@liff/logger": 2.19.1
+    "@liff/server-api": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+    tiny-sha256: ^1.0.2
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 1929e69541355cdbfe6cbb39554ca940c064ab794fe64a7ccbc8e02ab4aa1f2b538ba42cdb51a5cf430f0a1255c2c7ca5dea76c25d583d3a5e807986b2b59aa4
+  languageName: node
+  linkType: hard
+
+"@liff/logout@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/logout@npm:2.19.1"
+  dependencies:
+    "@liff/store": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 3c4e438e3ba67661fd660aa804a3778a603cf23c11f10de6ad48f07ecf2f72e302277496fb752aea0833b76c82b4119cb957394ac23234ed8666924bb4316511
+  languageName: node
+  linkType: hard
+
+"@liff/native-bridge@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/native-bridge@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/logger": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 75e17385c2a46deb8992599f32af5326d862d44296a3e0352948aeb3017a7f78b3468ef7b91a01afabb68f451a84c3d7c45db3778c3a8bf45061fb7b635e5856
+  languageName: node
+  linkType: hard
+
+"@liff/open-window@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/open-window@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/get-line-version": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/native-bridge": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: bdd392ad0d4e6517560f1989b38abfa5bf973e0ab9abbdbf85370c02f2160a5397f76fd5fe0d47bad0a7320a01cbbd3782f95bac5c51d474e3b89813ce0f1d41
+  languageName: node
+  linkType: hard
+
+"@liff/permanent-link@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/permanent-link@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/server-api": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: abcfd38367b8820abfdcedaef907a524a39ef4524ab3e44513dcc59d6ed56d42b0277d56ffa3278840ff6c968681afcf2156dc4172d79f2ad003c696af43d908
+  languageName: node
+  linkType: hard
+
+"@liff/permission@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/permission@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/server-api": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/sub-window": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 4e7faf0b3ee0272b3b78ae33b127e2d3e6344573c1bdde9081a590ba243c10a650218ec34ee25d2625600491dd945339e47f10d8893ad507d626f74d48809ee8
+  languageName: node
+  linkType: hard
+
+"@liff/ready@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/ready@npm:2.19.1"
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: adbe7244c89634d6b125e4f29ed0219cdea49654486a938cc3f8958272406adb79a98dcef1b04a58070c12275d3e1c9ebd0f0c4e6c65b2ea93e185dcf7da3a27
+  languageName: node
+  linkType: hard
+
+"@liff/scan-code-v2@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/scan-code-v2@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/is-api-available": 2.19.1
+    "@liff/sub-window": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: cee6dd3a0b8a2a5a38193a1bda6e8fa45916813ba7d503fc083e1d25dd9bee05194fd711e75e050f3d9921006a740076f754d2e1320aa62c0267e80eae07c057
+  languageName: node
+  linkType: hard
+
+"@liff/scan-code@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/scan-code@npm:2.19.1"
+  dependencies:
+    "@liff/check-availability": 2.19.1
+    "@liff/consts": 2.19.1
+    "@liff/native-bridge": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 51b5f97140236a85b2cb9b1452e5531e71423b44e0639c4b1336f5e2816a171bab96c3f694899322a105f41d653b8be3264cde44149359476ba92f20d1df302b
+  languageName: node
+  linkType: hard
+
+"@liff/send-messages@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/send-messages@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/get-line-version": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/server-api": 2.19.1
+    "@liff/util": 2.19.1
+    "@line/bot-sdk": ^7.0.0
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 541bc4aa5ccaddace49ed915a19217751cbed456cc21794717b602303a0bb00884bee4f86b9a2051904d081a99047b3bd7c5676d013d4215ca9131624d8ebd7d
+  languageName: node
+  linkType: hard
+
+"@liff/server-api@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/server-api@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 6e4fe779154acd6afda11363b853072b8af0bd6e7ed2b525111b3d2ac11e81d9418794dbdb01414fe10ee5956102be4e7172ea391b1ed696551e9b7f1e2be2c5
+  languageName: node
+  linkType: hard
+
+"@liff/share-target-picker@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/share-target-picker@npm:2.19.1"
+  dependencies:
+    "@liff/analytics": 2.19.1
+    "@liff/consts": 2.19.1
+    "@liff/get-line-version": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/is-logged-in": 2.19.1
+    "@liff/is-sub-window": 2.19.1
+    "@liff/logger": 2.19.1
+    "@liff/send-messages": 2.19.1
+    "@liff/server-api": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/types": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+    "@liff/window-postmessage": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: d1e91b6c04cc652a009a5e1cf328b16ec05abc3a3af775aa01d55688da41f0d83203b36f2ae270b82915e45b77f460beedce64b07c450bdef46cc195db473874
+  languageName: node
+  linkType: hard
+
+"@liff/store@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/store@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/types": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 2bf3e5a0948b18b2b51ec0ce2d30e1a86e696ddaab28205e134334108e8e9985f5f17184b1d1753fd475842d2bfc15af920ece67ca4c01542e0b654eff145f31
+  languageName: node
+  linkType: hard
+
+"@liff/sub-window@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/sub-window@npm:2.19.1"
+  dependencies:
+    "@liff/close-window": 2.19.1
+    "@liff/consts": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/is-api-available": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/is-sub-window": 2.19.1
+    "@liff/logger": 2.19.1
+    "@liff/server-api": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 366349b438302af49134efa4bff6e82724e99f8055304ed4830e6f8fb0d65f3ad59b55f86e9915478e4ff7286ba77c29ce36c190f906481c3374549398c78c8d
+  languageName: node
+  linkType: hard
+
+"@liff/types@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/types@npm:2.19.1"
+  checksum: d4f5ecf48455bb93811dd2bd76544c57eff9575ef63365b6d80b2eaccb03f389b7775055522a59b46d577b2280d889f61313038ed5c3c64ad24ff0ce6b7d4bc1
+  languageName: node
+  linkType: hard
+
+"@liff/use@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/use@npm:2.19.1"
+  dependencies:
+    "@liff/hooks": 2.19.1
+    "@liff/logger": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: 5e390d5c9753f2ac393d53f834c85ea73077ce1e325030ac01c86eca56b5efe698295968a655868ddc80c3f054293a0b3ce09c1bf407d2fe57f3eaa417e78174
+  languageName: node
+  linkType: hard
+
+"@liff/util@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/util@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/logger": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: f51c23c8f53472cb03ff77e9162796faa81cdf11498d55f8779a9b65e43b7ed2e94c8327d5de7c5a6b5afa44fd266aea785e332a078617c4e25040096e6f9482
+  languageName: node
+  linkType: hard
+
+"@liff/window-postmessage@npm:2.19.1":
+  version: 2.19.1
+  resolution: "@liff/window-postmessage@npm:2.19.1"
+  dependencies:
+    "@liff/consts": 2.19.1
+    "@liff/logger": 2.19.1
+    "@liff/util": 2.19.1
+  peerDependencies:
+    tslib: ^2.3.0
+  checksum: f70981c5d06ddad17d380b85a7238867ec99ca7808696220d228354dc2866758b9616778c7bf20dd63985c13cdc0ba842fedac606083004a120572e696ba2298
+  languageName: node
+  linkType: hard
+
+"@line/bot-sdk@npm:^7.0.0":
+  version: 7.5.0
+  resolution: "@line/bot-sdk@npm:7.5.0"
+  dependencies:
+    "@types/body-parser": ^1.19.2
+    "@types/node": ^14.18.12
+    axios: ^0.21.1
+    body-parser: ^1.20.0
+    file-type: ^15.0.0
+    form-data: ^3.0.0
+  checksum: d3c4d72dfe87a035656263b58c670aae4916f8b9863922ae15927a58545885cb96ea9a7eceac6d61ec01dc451aba1e8937128b3395f55e6b4e25cc480106c6d6
+  languageName: node
+  linkType: hard
+
+"@line/liff@npm:^2.19.1":
+  version: 2.19.1
+  resolution: "@line/liff@npm:2.19.1"
+  dependencies:
+    "@liff/analytics": 2.19.1
+    "@liff/close-window": 2.19.1
+    "@liff/consts": 2.19.1
+    "@liff/extensions": 2.19.1
+    "@liff/get-friendship": 2.19.1
+    "@liff/get-language": 2.19.1
+    "@liff/get-line-version": 2.19.1
+    "@liff/get-os": 2.19.1
+    "@liff/get-profile": 2.19.1
+    "@liff/get-version": 2.19.1
+    "@liff/hooks": 2.19.1
+    "@liff/init": 2.19.1
+    "@liff/is-api-available": 2.19.1
+    "@liff/is-in-client": 2.19.1
+    "@liff/is-logged-in": 2.19.1
+    "@liff/is-sub-window": 2.19.1
+    "@liff/liff-types": 2.19.1
+    "@liff/login": 2.19.1
+    "@liff/logout": 2.19.1
+    "@liff/native-bridge": 2.19.1
+    "@liff/open-window": 2.19.1
+    "@liff/permanent-link": 2.19.1
+    "@liff/permission": 2.19.1
+    "@liff/ready": 2.19.1
+    "@liff/scan-code-v2": 2.19.1
+    "@liff/send-messages": 2.19.1
+    "@liff/server-api": 2.19.1
+    "@liff/share-target-picker": 2.19.1
+    "@liff/store": 2.19.1
+    "@liff/sub-window": 2.19.1
+    "@liff/use": 2.19.1
+    "@liff/util": 2.19.1
+    promise-polyfill: ^8.1.3
+    tslib: ^2.3.0
+    whatwg-fetch: ^3.0.0
+  checksum: 442a4f430cad9f8c7715c04e4a98004755f22abd50df74dfdd3a740bd53979cf7b4b7b4d5b6032426eb00ca26280cd02bb8dd3c405f6af4c66eb86b5a324402b
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -2216,6 +2837,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tokenizer/token@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@tokenizer/token@npm:0.1.1"
+  checksum: f8a912a44382af9d8724227ad6fdf6b2a0cf790602009507e85c66f9493f1ea6b699f4f442c66477a9fc01812f7ce60149fcad1b5d87cfa875f8bae3c68f6e76
+  languageName: node
+  linkType: hard
+
+"@tokenizer/token@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@tokenizer/token@npm:0.3.0"
+  checksum: 1d575d02d2a9f0c5a4ca5180635ebd2ad59e0f18b42a65f3d04844148b49b3db35cf00b6012a1af2d59c2ab3caca59451c5689f747ba8667ee586ad717ee58e1
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
@@ -2301,7 +2936,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/body-parser@npm:*":
+"@types/body-parser@npm:*, @types/body-parser@npm:^1.19.2":
   version: 1.19.2
   resolution: "@types/body-parser@npm:1.19.2"
   dependencies:
@@ -2522,6 +3157,13 @@ __metadata:
   version: 12.20.12
   resolution: "@types/node@npm:12.20.12"
   checksum: 9e4ef12f52bbf6c1df7534e750c28edd7b49ac0793e2a8cf0ddfe02fcdc68740ebc349a727b8c584e60006ec63e6c9fa5123210ab52898e69b91835f1ac38afd
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.18.12":
+  version: 14.18.13
+  resolution: "@types/node@npm:14.18.13"
+  checksum: 307cd26bd6b8135c4ab87c94182111f057e7e7232fd0ffcb2f5de9d3a0523d171bb9a97addfcc29f3ebed94f2a599af7c3622326eaa85907af265616775f0574
   languageName: node
   linkType: hard
 
@@ -3244,6 +3886,7 @@ __metadata:
   resolution: "NuxtLiffTest@workspace:."
   dependencies:
     "@babel/eslint-parser": ^7.16.3
+    "@line/liff": ^2.19.1
     "@nuxt/types": ^2.15.8
     "@nuxt/typescript-build": ^2.1.0
     "@nuxtjs/axios": ^5.13.6
@@ -4076,6 +4719,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"body-parser@npm:^1.20.0":
+  version: 1.20.0
+  resolution: "body-parser@npm:1.20.0"
+  dependencies:
+    bytes: 3.1.2
+    content-type: ~1.0.4
+    debug: 2.6.9
+    depd: 2.0.0
+    destroy: 1.2.0
+    http-errors: 2.0.0
+    iconv-lite: 0.4.24
+    on-finished: 2.4.1
+    qs: 6.10.3
+    raw-body: 2.5.1
+    type-is: ~1.6.18
+    unpipe: 1.0.0
+  checksum: 12fffdeac82fe20dddcab7074215d5156e7d02a69ae90cbe9fee1ca3efa2f28ef52097cbea76685ee0a1509c71d85abd0056a08e612c09077cad6277a644cf88
+  languageName: node
+  linkType: hard
+
 "boolbase@npm:^1.0.0, boolbase@npm:~1.0.0":
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
@@ -4316,6 +4979,13 @@ __metadata:
   version: 3.0.0
   resolution: "bytes@npm:3.0.0"
   checksum: a2b386dd8188849a5325f58eef69c3b73c51801c08ffc6963eddc9be244089ba32d19347caf6d145c86f315ae1b1fc7061a32b0c1aa6379e6a719090287ed101
+  languageName: node
+  linkType: hard
+
+"bytes@npm:3.1.2":
+  version: 3.1.2
+  resolution: "bytes@npm:3.1.2"
+  checksum: e4bcd3948d289c5127591fbedf10c0b639ccbf00243504e4e127374a15c3bc8eed0d28d4aaab08ff6f1cf2abc0cce6ba3085ed32f4f90e82a5683ce0014e1b6e
   languageName: node
   linkType: hard
 
@@ -5040,6 +5710,13 @@ __metadata:
   version: 1.0.0
   resolution: "constants-browserify@npm:1.0.0"
   checksum: f7ac8c6d0b6e4e0c77340a1d47a3574e25abd580bfd99ad707b26ff7618596cf1a5e5ce9caf44715e9e01d4a5d12cb3b4edaf1176f34c19adb2874815a56e64f
+  languageName: node
+  linkType: hard
+
+"content-type@npm:~1.0.4":
+  version: 1.0.4
+  resolution: "content-type@npm:1.0.4"
+  checksum: 3d93585fda985d1554eca5ebd251994327608d2e200978fdbfba21c0c679914d5faf266d17027de44b34a72c7b0745b18584ecccaa7e1fdfb6a68ac7114f12e0
   languageName: node
   linkType: hard
 
@@ -6850,6 +7527,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"file-type@npm:^15.0.0":
+  version: 15.0.1
+  resolution: "file-type@npm:15.0.1"
+  dependencies:
+    readable-web-to-node-stream: ^2.0.0
+    strtok3: ^6.0.3
+    token-types: ^2.0.0
+    typedarray-to-buffer: ^3.1.5
+  checksum: 1e7a6c47f9b671cf3cbba3e03835741def8acf2902d9484a3844e86049573dae4c838c962e754e9abbe0f36eee9a38ff6f343bc19f7282a2233260be851dc6ca
+  languageName: node
+  linkType: hard
+
 "file-uri-to-path@npm:1.0.0":
   version: 1.0.0
   resolution: "file-uri-to-path@npm:1.0.0"
@@ -7862,7 +8551,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ieee754@npm:^1.1.13, ieee754@npm:^1.1.4":
+"ieee754@npm:^1.1.13, ieee754@npm:^1.1.4, ieee754@npm:^1.2.1":
   version: 1.2.1
   resolution: "ieee754@npm:1.2.1"
   checksum: 5144c0c9815e54ada181d80a0b810221a253562422e7c6c3a60b1901154184f49326ec239d618c416c1c5945a2e197107aee8d986a3dd836b53dffefd99b5e7e
@@ -9746,6 +10435,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"media-typer@npm:0.3.0":
+  version: 0.3.0
+  resolution: "media-typer@npm:0.3.0"
+  checksum: af1b38516c28ec95d6b0826f6c8f276c58aec391f76be42aa07646b4e39d317723e869700933ca6995b056db4b09a78c92d5440dc23657e6764be5d28874bba1
+  languageName: node
+  linkType: hard
+
 "mem@npm:^8.1.1":
   version: 8.1.1
   resolution: "mem@npm:8.1.1"
@@ -9858,7 +10554,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime-types@npm:^2.1.12, mime-types@npm:^2.1.19, mime-types@npm:^2.1.27, mime-types@npm:^2.1.30, mime-types@npm:~2.1.34":
+"mime-types@npm:^2.1.12, mime-types@npm:^2.1.19, mime-types@npm:^2.1.27, mime-types@npm:^2.1.30, mime-types@npm:~2.1.24, mime-types@npm:~2.1.34":
   version: 2.1.35
   resolution: "mime-types@npm:2.1.35"
   dependencies:
@@ -10963,6 +11659,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"peek-readable@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "peek-readable@npm:4.1.0"
+  checksum: 02c673f9bc816f8e4e74a054c097225ad38d457d745b775e2b96faf404a54473b2f62f5bcd496f5ebc28696708bcc5e95bed409856f4bef5ed62eae9b4ac0dab
+  languageName: node
+  linkType: hard
+
 "picocolors@npm:^0.2.1":
   version: 0.2.1
   resolution: "picocolors@npm:0.2.1"
@@ -11956,6 +12659,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"promise-polyfill@npm:^8.1.3":
+  version: 8.2.3
+  resolution: "promise-polyfill@npm:8.2.3"
+  checksum: f320278bab8b8ce32f0e2f377d75aabe35c90a79f92b3e001db084d635da1fb8740ba8a26b5c1c2b4cdca5a4c988f9b6b3eb30f0b151d0362d3d9c1675024a8f
+  languageName: node
+  linkType: hard
+
 "promise-retry@npm:^2.0.1":
   version: 2.0.1
   resolution: "promise-retry@npm:2.0.1"
@@ -12095,7 +12805,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.9.4":
+"qs@npm:6.10.3, qs@npm:^6.9.4":
   version: 6.10.3
   resolution: "qs@npm:6.10.3"
   dependencies:
@@ -12180,6 +12890,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"raw-body@npm:2.5.1":
+  version: 2.5.1
+  resolution: "raw-body@npm:2.5.1"
+  dependencies:
+    bytes: 3.1.2
+    http-errors: 2.0.0
+    iconv-lite: 0.4.24
+    unpipe: 1.0.0
+  checksum: 5362adff1575d691bb3f75998803a0ffed8c64eabeaa06e54b4ada25a0cd1b2ae7f4f5ec46565d1bec337e08b5ac90c76eaa0758de6f72a633f025d754dec29e
+  languageName: node
+  linkType: hard
+
 "rc9@npm:^1.2.0":
   version: 1.2.2
   resolution: "rc9@npm:1.2.2"
@@ -12253,6 +12975,13 @@ __metadata:
     string_decoder: ^1.1.1
     util-deprecate: ^1.0.1
   checksum: d4ea81502d3799439bb955a3a5d1d808592cf3133350ed352aeaa499647858b27b1c4013984900238b0873ec8d0d8defce72469fb7a83e61d53f5ad61cb80dc8
+  languageName: node
+  linkType: hard
+
+"readable-web-to-node-stream@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "readable-web-to-node-stream@npm:2.0.0"
+  checksum: ba7e6931c188fd81b9738dada8df0a6f392be6fd1da5ab0470d202b2ab8f9b85869eb01b47dd03a2b23a10430eabe117ee32ab8e2c0dc46ef6b80eac1933a362
   languageName: node
   linkType: hard
 
@@ -13561,6 +14290,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strtok3@npm:^6.0.3":
+  version: 6.3.0
+  resolution: "strtok3@npm:6.3.0"
+  dependencies:
+    "@tokenizer/token": ^0.3.0
+    peek-readable: ^4.1.0
+  checksum: 90732cff3f325aef7c47c511f609b593e0873ec77b5081810071cde941344e6a0ee3ccb0cae1a9f5b4e12c81a2546fd6b322fabcdfbd1dd08362c2ce5291334a
+  languageName: node
+  linkType: hard
+
 "style-resources-loader@npm:^1.4.1":
   version: 1.5.0
   resolution: "style-resources-loader@npm:1.5.0"
@@ -13859,6 +14598,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tiny-sha256@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "tiny-sha256@npm:1.0.2"
+  checksum: 3b27cd48918a43fca1f8b2b40998a9754935842eb2cd992907fd68f869d22e862923b85c1cdb9088a99474893fd754efe92d9ccf77f7b5e6e7cbc9b6d0e44f88
+  languageName: node
+  linkType: hard
+
 "tmp@npm:^0.0.33":
   version: 0.0.33
   resolution: "tmp@npm:0.0.33"
@@ -13940,6 +14686,16 @@ __metadata:
   version: 1.0.1
   resolution: "toidentifier@npm:1.0.1"
   checksum: 952c29e2a85d7123239b5cfdd889a0dde47ab0497f0913d70588f19c53f7e0b5327c95f4651e413c74b785147f9637b17410ac8c846d5d4a20a5a33eb6dc3a45
+  languageName: node
+  linkType: hard
+
+"token-types@npm:^2.0.0":
+  version: 2.1.1
+  resolution: "token-types@npm:2.1.1"
+  dependencies:
+    "@tokenizer/token": ^0.1.1
+    ieee754: ^1.2.1
+  checksum: e5874d0a5055e10f292585aabaf76a4c4c2833d9f252d0317c33256121b3bbcf9ae2d951e08f85484fb6485070a37edd14c750ba7d4255664c9962c7f6205265
   languageName: node
   linkType: hard
 
@@ -14067,7 +14823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.1":
+"tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1":
   version: 2.3.1
   resolution: "tslib@npm:2.3.1"
   checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
@@ -14145,6 +14901,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"type-is@npm:~1.6.18":
+  version: 1.6.18
+  resolution: "type-is@npm:1.6.18"
+  dependencies:
+    media-typer: 0.3.0
+    mime-types: ~2.1.24
+  checksum: 2c8e47675d55f8b4e404bcf529abdf5036c537a04c2b20177bcf78c9e3c1da69da3942b1346e6edb09e823228c0ee656ef0e033765ec39a70d496ef601a0c657
+  languageName: node
+  linkType: hard
+
 "typedarray-to-buffer@npm:^3.1.5":
   version: 3.1.5
   resolution: "typedarray-to-buffer@npm:3.1.5"
@@ -14173,11 +14939,11 @@ __metadata:
 
 "typescript@patch:typescript@~4.2#~builtin<compat/typescript>":
   version: 4.2.4
-  resolution: "typescript@patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=493e53"
+  resolution: "typescript@patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bafcad6990f5d8ea9ccff09e440ce42630b2e42a5752dde5455b55c806ae43f8726a03770577d4fc6c2aa624597f796725cc6fe2c173f558a753a2f23a5198a4
+  checksum: eb86e0e8022e5297f7a7b871b6edfbf33b57049416ada8bf97c358760125c7c79f074fbebd1b8e8230f858ae05eb22ad0e805e8f6acd5eae1fa886681624c15e
   languageName: node
   linkType: hard
 
@@ -14312,7 +15078,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unpipe@npm:~1.0.0":
+"unpipe@npm:1.0.0, unpipe@npm:~1.0.0":
   version: 1.0.0
   resolution: "unpipe@npm:1.0.0"
   checksum: 4fa18d8d8d977c55cb09715385c203197105e10a6d220087ec819f50cb68870f02942244f1017565484237f1f8c5d3cd413631b1ae104d3096f24fdfde1b4aa2
@@ -14898,6 +15664,13 @@ __metadata:
   dependencies:
     iconv-lite: 0.4.24
   checksum: 5be4efe111dce29ddee3448d3915477fcc3b28f991d9cf1300b4e50d6d189010d47bca2f51140a844cf9b726e8f066f4aee72a04d687bfe4f2ee2767b2f5b1e6
+  languageName: node
+  linkType: hard
+
+"whatwg-fetch@npm:^3.0.0":
+  version: 3.6.2
+  resolution: "whatwg-fetch@npm:3.6.2"
+  checksum: ee976b7249e7791edb0d0a62cd806b29006ad7ec3a3d89145921ad8c00a3a67e4be8f3fb3ec6bc7b58498724fd568d11aeeeea1f7827e7e1e5eae6c8a275afed
   languageName: node
   linkType: hard
 

@@ -88,5 +88,16 @@ export default {
       title: 'Vuetify.js',
     }
   },
+  mounted() {
+    // mounted() is rendered when DOM is rendered
+    // wait liff.init()
+    this.$liffInit
+      .then(() => {
+        this.sdkVersion = liff.getVersion()
+      })
+      .catch((error) => {
+        this.liffError = error
+      })
+  },
 }
 </script>
